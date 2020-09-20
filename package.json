@@ -3,8 +3,12 @@
   "name": "covid19_tracker",
   "version": "0.1.0",
   "private": true,
-  "node": "12.x",
-  "npm":"6.x",
+  "engines" : {
+
+    "node": "12.x",
+    "npm":"6.x"
+  },
+
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
