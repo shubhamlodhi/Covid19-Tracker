@@ -1,0 +1,61 @@
+.tablevac {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* overflow: scroll; */
+    color: #6a5d5d;
+    background-color: #f5f6fa;
+    /* height: 400px; */
+  }
+  
+  .tablevac tr {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .tablevac td {
+    padding: 0.5rem;
+    border: none;
+  }
+  
+  .tablevac tr:nth-of-type(odd) {
+    /* background-color: #f3f2f8; */
+    background-color:rgba(185, 203, 235, 0.5);
+  }
+
+  .tableDetails{
+    margin-top:30px;
+      margin-bottom: 10px;
+      
+  }
+
+  .tableDetails1{
+      
+    margin-bottom: 10px;
+    
+}
+
+  .vaccine__header__title{
+    color: #0c4778;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .institute{
+      display: flex;
+      /* flex-direction: row; */
+      justify-content: space-between;
+      justify-content: space-evenly;
+
+  }
+
+  @media (max-width: 990px)
+{
+  .tablevac{
+    
+
+    flex-direction: column;
+    
+  }
+}
